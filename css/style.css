@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 
+body{
+	max-width: 100%;
+}
+
 /*nav{
 	background-image: url(../img/lupulo.jpeg);
 	opacity:0.9;
@@ -24,33 +28,16 @@ nav ul li a:hover{
 		}
 
 #botonera{
-	background-color:rgba(131, 189, 117,0.6);
+	background-color:rgba(131, 189, 117,1);
 }
 
 .carousel-item > img {
-  /*object-fit: scale-down;*/
+ 
   height: 75vh;
   width:100% !important;
 }
 
 
-
-.div-card{
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	align-items: center;
-	justify-content: space-around;
-	margin-top: 30px;
-	margin-bottom: 20px;
-
-
-
-
-}
-.div-card-tex{
-	width: 30rem;
-}
 
 .tex-center{
 	align-items: center;
@@ -86,9 +73,76 @@ body .btn-primary
 	font-weight: bold;
 	font-family: fantasy;
 	color: #4E944F;
+	
 
 }
 
-.img-card{
-	margin-bottom: 20px;
+
+.footer{
+	text-align: center;
+	margin-top: 30px;
+	background-image: url(../img/lupulo.jpeg);
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+
 }
+
+.footer h3{
+	
+	font-size: 1.2rem;
+	
+}
+
+.bg-c{
+	width: 100vw;
+	height: 100%;
+	background-color: #E9EFC0;
+}
+
+.img-log{
+	height: 150px;
+}
+
+.text{
+	font-family: fantasy;
+	font-size: 1.1rem;
+	color: #4E944F;
+}
+
+.btn {
+background:#4E944F;
+color:#FFFFFF;
+border:0px;
+}
+
+
+.btn:hover {
+background:#72D162;
+color:#FFFFFF;
+border:0px;
+}
+
+.bg-l{
+	background-image: url(../img/f1.jpg);
+	
+}
+
+h1{
+	font-size: 3rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.aside{
+	width: 90%;
+	height: 100%;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+ 
+
+
